@@ -9,9 +9,9 @@ pipeline {
         AWS_S3_BUCKET         = "atheerhadi-belt2d2-s3"
         AWS_REGION            = "us-east-1"
         ARTIFACT_NAME         = "spring-boot-rest-services-0.0.1-SNAPSHOT.jar"
-        AWS_EB_APP_NAME       = "sampleapp-java"
+        AWS_EB_APP_NAME       = "Atheer_Hadi-B2D2"
         AWS_EB_APP_VERSION    = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT    = "Sampleappjava-env"
+        AWS_EB_ENVIRONMENT    = "Atheerhadib2d2-env"
 
     }
 
